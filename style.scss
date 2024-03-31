@@ -19,6 +19,22 @@
     font-display: swap;
 }
 
+:root {
+    --primary-text-color: 
+    --secondary-text-color:
+    --text-blue:
+    --text-white:
+    --text-yellow:
+    --bg-yellow:
+    --bg-black:
+
+    //breakpoints
+
+    --mobile: 320px;
+    --tablet: 1024px;
+    --desctop:1920px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,3 +45,70 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(./);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: ;
+
+}
+
+.nav {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+
+
+    &__icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+}
+
+.square {
+    padding: 30px 24px;
+    background-color: var(--bg-yellow);
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clip-path: polygon(15% 1%, 100% 0, 100% 85%, 88% 100%, 0% 100%, 0% 15%);
+
+    &__title {
+        font-family: "Archangelsk";
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    &__btn {
+        background: none;
+        border: none;
+        padding: 10px 50px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 200%;
+        text-align: center;
+        color: #f8f200;
+        background-color: var(--bg-black);
+    }
+} 
+

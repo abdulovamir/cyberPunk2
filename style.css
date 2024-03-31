@@ -16,6 +16,20 @@
   font-weight: 400;
   font-display: swap;
 }
+:root {
+  --primary-text-color:
+  --secondary-text-color:
+  --text-blue:
+  --text-white:
+  --text-yellow:
+  --bg-yellow:
+  --bg-black:
+  //breakpoints
+  --mobile: 320px;
+  --tablet: 1024px;
+  --desctop:1920px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,4 +39,36 @@
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  max-width: 500px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav__icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.square {
+  padding: 30px 24px;
 }/*# sourceMappingURL=style.css.map */
